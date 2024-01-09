@@ -13,7 +13,7 @@ import (
 	telebot "gopkg.in/telebot.v3"
 )
 
-var TeleToken = os.Getenv("TToken")
+var TeleToken = os.Getenv("TELE_TOKEN")
 
 // kbotCmd represents the kbot command
 var kbotCmd = &cobra.Command{
